@@ -67,7 +67,7 @@ function App() {
           <div className={`result ${result === 'SPAM' ? 'spam' : 'ham'}`}>{result}</div>
         )}
         {error && <div className="error">{error}</div>}
-        <footer className="footer">Made with <span role="img" aria-label="love">💙</span> for CyberML Project</footer>
+        <footer className="footer">Made with <span role="img" aria-label="love">💙</span> for CyberML Project by Vedansh Maheshwari</footer>
       </div>
     </div>
   );
